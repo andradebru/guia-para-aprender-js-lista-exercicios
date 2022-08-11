@@ -1,7 +1,7 @@
 /**
  * Faça um Programa que imprima a soma de dois numeros (inteiros ou com casas decimais).
  * Se os valores de entrada não forem números válidos, imprima uma mensagem de aviso.
- * 
+ *
  * ENTRADA                           SAÍDA
  *    10 e 20                        20
  *    40.5 e 1.5                     42
@@ -16,10 +16,17 @@
  */
 
 // Entrada
-var n1 = 'A'
-var n2 = 40
+var n1 = parseInt("A");
+var n2 = parseInt(40);
+
+// se n1 ou n2 for string printa "não é um número"
+if (isNaN(n1) || isNaN(n2)) {
+  console.log("não é um número");
+} else {
+  console.log(n1 + n2);
+}
 
 // Saída
-var resultado = '?'
+// var resultado = "?";
 
-console.log(resultado)
+// console.log(resultado);
