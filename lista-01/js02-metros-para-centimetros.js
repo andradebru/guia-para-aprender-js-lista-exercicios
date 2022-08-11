@@ -15,7 +15,7 @@
  */
 
 // Entrada
-var metros = 0.5;
+var metros = 1;
 
 // Altere a expressão abaixo para calcular cm com base na var metros
 var cm = metros * 100;
