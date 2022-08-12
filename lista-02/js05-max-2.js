@@ -15,6 +15,7 @@
 var entrada = [40, 42, 1, 0, -10];
 var ordenada = [];
 var maior = 0;
+var segundoMaior = 0;
 
 for (let index = 0; index < entrada.length; index++) {
   const element = entrada[index];
@@ -26,5 +27,4 @@ for (let index = 0; index < entrada.length; index++) {
   //   element > maior ? (ordenada.push(entrada[index]), (maior = element)) : maior;
 }
 
-var segundoMaior = ordenada.pop(-1);
 console.log(segundoMaior);
