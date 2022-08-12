@@ -21,8 +21,7 @@ var positivos = ["yes", "y", "sim", "s", 1, "👍"];
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
 // se entrada estiver na lista positivo, imprime true, se nao estiver imprime false
-positivos.includes(entrada) ? true : false;
 
-var resultado = false;
+var resultado = positivos.includes(entrada) ? true : false;
 
 console.log(resultado);
