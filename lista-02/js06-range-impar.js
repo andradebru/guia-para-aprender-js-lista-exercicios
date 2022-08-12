@@ -10,15 +10,11 @@
 var range = [1, 150];
 
 var impares = [];
-var pares = [];
 
-for (i in range) {
-  if (i % 2 != 0) {
-    impares.push(i);
-  } else {
-    pares.push(i);
+for (let index = 1; index < 151; index++) {
+  if (index % 2 != 0) {
+    impares.push(index);
   }
-  i++;
 }
 
 console.log(impares);
