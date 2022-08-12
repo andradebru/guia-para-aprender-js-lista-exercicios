@@ -3,7 +3,7 @@
  * dado uma entrada criptografada, gere o texto decriptografado
  *
  * ENTRADA          SAÍDA
- * bcbduf           abacate
+ * bcbdbuf          abacate
  * @fcsb            zebra
  * $fcsb            Zebra
  *

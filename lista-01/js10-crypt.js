@@ -4,7 +4,7 @@
  * apenas converta a para b, b para c e assim por diante.
  *
  * ENTRADA          SAÍDA
- * abacate          bcbduf
+ * abacate          bcbdbuf
  * zebra            @fcsb
  * Zebra            $fcsb
  *
