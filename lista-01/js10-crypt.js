@@ -24,7 +24,7 @@
  */
 
 // Entrada
-var texto = "lazy";
+var texto = "abacate";
 
 var textoCripto = "";
 
