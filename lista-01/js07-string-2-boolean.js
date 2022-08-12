@@ -1,6 +1,6 @@
 /**
  * Faça um programa que retorne true ou false conforme a entrada Y,y,yes,S,sim
- * 
+ *
  * ENTRADA          SAÍDA
  * Y                         true
  * Yes, YES, yes             true
@@ -14,9 +14,15 @@
  */
 
 // Entrada
-var entrada = 'J'
+var entrada = "J";
+var entradaTratada = entrada.toLowerCase();
+var positivos = ["yes", "y", "sim", "s", 1, "👍"];
+// var negativos = ["nao", "n", " ", "j", 0];
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = false
+// se entrada estiver na lista positivo, imprime true, se nao estiver imprime false
+positivos.includes(entrada) ? true : false;
 
-console.log(resultado)
+var resultado = false;
+
+console.log(resultado);
