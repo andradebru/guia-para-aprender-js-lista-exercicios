@@ -8,10 +8,10 @@
 
 // Entrada
 var entrada = [1, 3, 5, 7, 8];
-var saida = "";
+var saida = [];
 entrada.forEach(function (elemento) {
-  var parimpar = elemento % 2 == 0 ? "'par'" : "'impar'";
-  saida += parimpar + ", ";
+  var parimpar = elemento % 2 == 0 ? "par" : "impar";
+  saida.push(parimpar);
 });
 
 // gerar a lista de saida
