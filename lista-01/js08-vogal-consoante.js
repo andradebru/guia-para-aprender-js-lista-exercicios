@@ -1,18 +1,19 @@
 /**
- * Faça um Programa que verifique se uma letra 
+ * Faça um Programa que verifique se uma letra
  * de entrada é vogal ou consoante.
- * 
+ *
  * Entrada           Saída
  * a                 vogal
  * I                 vogal
  * z                 consoante
  * J                 consoante
-*/
+ */
 
 // Entrada
-var entrada = 'a'
+var entrada = "j";
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = 'vogal'
+var vogais = ["a", "e", "i", "o", "u"];
+var resultado = vogais.includes(entrada) ? "vogal" : "consoante";
 
-console.log(resultado)
+console.log(resultado);
