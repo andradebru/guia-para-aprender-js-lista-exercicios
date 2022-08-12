@@ -14,6 +14,8 @@ var entrada = "j";
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
 var vogais = ["a", "e", "i", "o", "u"];
+// var vogais = 'aeiou'
+// vogais.split('')
 var resultado = vogais.includes(entrada) ? "vogal" : "consoante";
 
 console.log(resultado);

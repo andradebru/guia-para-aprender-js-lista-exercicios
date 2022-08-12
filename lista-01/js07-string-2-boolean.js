@@ -14,8 +14,8 @@
  */
 
 // Entrada
-var entrada = "J";
-var entradaTratada = entrada.toLowerCase();
+var entrada = 1;
+var entradaTratada = typeof entrada == String ? entrada.toLowerCase() : entrada;
 var positivos = ["yes", "y", "sim", "s", 1, "👍"];
 // var negativos = ["nao", "n", " ", "j", 0];
 

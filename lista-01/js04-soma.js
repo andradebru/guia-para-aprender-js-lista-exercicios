@@ -20,7 +20,8 @@ var n1 = parseInt("A");
 var n2 = parseInt(40);
 
 // se n1 ou n2 for string printa "não é um número"
-if (isNaN(n1) || isNaN(n2)) {
+// if (isNaN(n1) || isNaN(n2)) {
+if (isNaN(n1, n2)) {
   console.log("não é um número");
 } else {
   console.log(n1 + n2);

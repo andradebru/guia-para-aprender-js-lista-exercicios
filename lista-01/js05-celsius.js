@@ -11,7 +11,7 @@
 // Entrada
 var fahrenheit = 89;
 
-// -32 * 5556
+// -32 * 5/9
 
 // Altere a expressão abaixo para converter Fahrenheit em Celsius
 var celsius = Math.round((fahrenheit - 32) * (5 / 9));
