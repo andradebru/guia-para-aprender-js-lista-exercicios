@@ -17,14 +17,16 @@ var ordenada = [];
 var maior = 0;
 var segundoMaior = 0;
 
-for (let index = 0; index < entrada.length; index++) {
-  const element = entrada[index];
-  if (element > maior) {
-    ordenada.push(element);
-    console.log(ordenada);
+for (const num of entrada) {
+  if (num > maior) {
+    maior = num;
   }
-  //   element > maior ? (maior = element) : maior;
-  //   element > maior ? (ordenada.push(entrada[index]), (maior = element)) : maior;
+
+  for (const num of entrada) {
+    if (num > segundoMaior && num < maior) {
+      segundoMaior = num;
+    }
+  }
 }
 
 console.log(segundoMaior);
